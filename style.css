@@ -1,0 +1,222 @@
+
+ *
+{ 
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+body 
+{ 
+   background-image: url(p1.jpg);
+   background-size: cover;
+   background-position: down;
+   font-family: sans-serif;
+}
+ .menu-bar
+{
+ background: rgb(0,80,0);
+ text-align: center;
+ 
+}
+  .menu-bar ul
+{
+  display: inline-flex;
+  list-styel: none;
+  color: #fff;
+}
+ .menu-bar ul li
+{ width:  120px;
+  margin: 15px;
+  padding: 5px; 
+}
+ .menu-bar ul li a
+{
+  text-decoration: none;
+ color: #fff; }
+
+.active, .menu-bar ul li:hover{
+  background:#2bab0d;
+  border-radius: 3px;
+}
+
+.menu-bar .fa
+{   
+ margin-right:6px ;
+}
+
+.sub-menu-1
+{
+ display:none;
+}
+.menu-bar ul li:hover .sub-menu-1  
+{
+ display:block;
+ position: absolute;
+ background: rgb(0,100,0);
+ margin-top:15px;
+ margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last child 
+{
+   border-bottom: none ;
+}
+.fa-angle-right
+{
+float: right;
+}
+.sub-menu-2
+{
+ display:none;
+}
+.menu-bar ul li:hover .sub-menu-2  
+{
+ display:block;
+ position: absolute;
+ background: rgb(0,100,0);
+ margin-top:15px;
+ margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last child 
+{
+   border-bottom: none ;
+}
+.fa-angle-right
+{
+float: right;
+}
+.sub-menu-3
+{
+ display:none;
+}
+.menu-bar ul li:hover .sub-menu-3  
+{
+ display:block;
+ position: absolute;
+ background: rgb(0,100,0);
+ margin-top:15px;
+ margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last child 
+{
+   border-bottom: none ;
+}
+.fa-angle-right
+{
+float: right;
+}
+ form .submit
+{
+ background: #2bab0d;
+ border-color: transparent;
+ color: #fff;
+ font-size: 20px;
+ font-weight: bold;
+ letter-spacing: 2px;
+ height: 50px;
+ margin-top: 20px;
+}
+ 
+.title{
+position: absolute;
+top: 6% ;
+left: 8% ;
+transform: translate(-50%,-50%)
+}
+ .title{
+ color: #000;
+ font-size: 15px;
+
+}
+
+.Contact Form {
+   width: 320px;
+   height: 420px;
+   top: 50%;
+   left: 50%;
+    position: absolute ;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   padding: 150px 50px;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px; 
+  text-align: center;
+  font-size: 22px;
+}
+.Contact Form p{
+ margin: 0;
+ padding: 0;
+ font-weight: bold; 
+}
+.Contact Form input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.Contact Form input[type="submit"]
+{
+ border: none;
+ outline: none;
+ height: 40px;
+ background: #fb2525;
+ color: #fff;
+ font-size: 18px;
+ border-radius: 20px;
+}
+.Contact Form input[type="submit"]:hover
+{
+ cursor:pointer;
+ background: #ffc107;
+ color: #fff;
+}
+.Login Form a{
+ text-decoration: none;
+ font-size: 15px;
+ line-height:20px;
+ color: black;
+}
+.Contact Form a:hover{
+ color: #ffc107;
+}
